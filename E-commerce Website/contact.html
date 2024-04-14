@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionFINDS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1><i class="fa-solid fa-f"></i>ashion<i class="fa-solid fa-f"></i>inds</h1>
+        <div class="navbar-links">
+            <p class="nav-link"><a href="index.html">Home</a></p>
+            <p class="nav-link"><a href="collections.html">Collections</a></p>
+            <p class="nav-link"><a href="contact.html">Contact us</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()"><i class="fa-solid fa-xmark"></i></p>
+        <div class="side-navbar-links">
+            <p class="sidenav-link"><a href="index.html">Home</a></p>
+            <p class="sidenav-link"><a href="collections.html">Collections</a></p>
+            <p class="sidenav-link"><a href="contact.html">Contact us</a></p>
+        </div>
+    </div>
+    <div class="contact">
+    <div class="contact-cont">
+        <h1 style="color: white;">Contact Us</h1>
+        <h4>Name</h4>
+        <input type="text">
+        <h4>email</h4>
+        <input type="email">
+        <h4>Message</h4>
+        <textarea  id="message"></textarea>
+        <button>SUBMIT</button>
+    </div>
+</div>
+    <div class="footer">
+        <h2><i class="fa-solid fa-f"></i>ashion<i class="fa-solid fa-f"></i>INDS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, deserunt repellendus?</p>
+        <h4 class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </h4>
+        <p>@2024 FashionFINDS.com</p>
+    </div>
+        <script src="script.js"></script>
+        <script src="collections.js"></script>
+    </body>
+    
+    </html>
